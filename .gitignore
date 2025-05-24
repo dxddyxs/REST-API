@@ -1,0 +1,26 @@
+# Binários e arquivos compilados
+bin/
+*.exe
+*.dll
+*.so
+*.db
+
+# Dependências Go
+vendor/
+
+# Ambiente
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+docker-compose*.yml
+Dockerfile
+docker-compose override
+
+# Logs e arquivos temporários
+*.log
+*.tmp
